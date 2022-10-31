@@ -30,9 +30,9 @@ async def is_admins(chat_id: int):
     ]
 
 
-@bot.on_message(filters.command("start"))
+@bot.on_message(filters.command("aistart"))
 async def start(client, message):
-        await message.reply_text("Hi! My name is Cruella\n /chatbot - [on|off]")
+        await message.reply_text("")
 
 
 @bot.on_message(
