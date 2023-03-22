@@ -1,1 +1,1 @@
-Vick: python3 main.py
+Champu: python3 main.py
